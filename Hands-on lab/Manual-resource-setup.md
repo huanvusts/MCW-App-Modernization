@@ -373,7 +373,7 @@ In this task, you configure the WebVM with the required software and downloads.
    New-Item -ItemType directory -Path C:\MCW
    while((Get-ChildItem -Directory C:\MCW | Measure-Object).Count -eq 0 )
    {
-      (New-Object System.Net.WebClient).DownloadFile("https://github.com/microsoft/MCW-App-modernization/zipball/$branchName", 'C:\MCW.zip')
+      (New-Object System.Net.WebClient).DownloadFile("https://github.com/huanvusts/MCW-App-modernization/zipball/$branchName", 'C:\MCW.zip')
       Expand-Archive -LiteralPath 'C:\MCW.zip' -DestinationPath 'C:\MCW' -Force
    }
    ```
