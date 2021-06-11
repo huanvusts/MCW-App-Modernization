@@ -436,7 +436,7 @@ In this task, you open an RDP connection to the SqlServer2008 VM, disable Intern
 
 In this task, you install the Microsoft Data Migration Assistant (DMA) on the SqlServer2008 VM.
 
-1. Install the Microsoft Data Migration Assistant v5.x by downloading it to <https://www.microsoft.com/en-us/download/details.aspx?id=53595> in a web browser on the SqlServer2008 VM.
+1. Install .NET Framework 4.8 <https://go.microsoft.com/fwlink/?linkid=2088631> and Install the Microsoft Data Migration Assistant v5.x by downloading it to <https://www.microsoft.com/en-us/download/details.aspx?id=53595> in a web browser on the SqlServer2008 VM.
 
 2. Open the Start Menu and search for `sql` **(1)**. Launch **Microsoft SQL Server Management Studio 17 (2)**.
 
