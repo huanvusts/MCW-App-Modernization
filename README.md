@@ -31,9 +31,7 @@ At the end of this hands-on lab, your ability to build solutions for modernizing
 - App Services
 - Azure Database Migration Service
 - Azure Functions
-- Azure Key Vault
 - Azure Migrate
-- Azure Redis
 - Azure SQL Database
 - Azure Storage
 - Azure Virtual Machines
